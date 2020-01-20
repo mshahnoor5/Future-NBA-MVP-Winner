@@ -1,7 +1,3 @@
-# James Kelly
-# Shekh Islam
-# NBA award winner prediction
-
 import json, pandas as pd, numpy as np
 from sklearn.naive_bayes import MultinomialNB
 from sklearn import metrics, svm
