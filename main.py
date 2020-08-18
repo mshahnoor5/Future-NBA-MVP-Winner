@@ -1,3 +1,7 @@
+# James Kelly
+# Shekh Islam
+# NBA award winner prediction
+
 import json, pandas as pd, numpy as np
 from sklearn.naive_bayes import MultinomialNB
 from sklearn import metrics, svm
@@ -5,7 +9,7 @@ from sklearn.metrics import classification_report
 
 # Attributes:
 # Age, PTS (points), FGM (field goals made), FTM (free throws made),
-# AST (assists), STL(steals), BLK(blocks), REB (rebounds)
+# AST (assists), STL(steals), BLK(blocks), REB (rebounds) 
 
 def main():
     options = ['PLAYER_ID', 'PLAYER_NAME', 'TEAM_ID', 'TEAM_ABBREVIATION', 'AGE', 'GP', 'W', 'L', 'W_PCT', 'MIN', 'FGM',
