@@ -1,1 +1,2 @@
-# NPA-MVM-Winer-Prediction
+# 2020-NBA-MVP-Winner-Prediction
+Modeled a machine learning algorithm using Scikit learn to predict future NBA MVP winner. The project involved utilizing the data available from https://stats.nba.com/ In order to classify players as “potential MVP award winners”. I used past 25 years of NBA players data to train the algorithm to predict 5 players most likely to win the league MVP with a 99% accuracy. 
